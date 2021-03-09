@@ -5,11 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20200614185124_AddDB.cs" />
-    <Compile Remove="Migrations\20200614185124_AddDB.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\VNPost.Models\VNPost.Models.csproj" />
     <ProjectReference Include="..\VNPost.Utility\VNPost.Utility.csproj" />
   </ItemGroup>
